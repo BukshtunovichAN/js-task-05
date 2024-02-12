@@ -1,0 +1,30 @@
+{
+  "name": "js-task-05",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://bukshtunovichan.github.io/js-task-05/",
+  "scripts": {
+    "start": "parcel src/*.html --no-cache",
+    "build": "parcel build src/*.html --public-url /js-task-05/ --no-cache",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BukshtunovichAN/js-task-05.git"
+  },
+  "keywords": [],
+  "author": "Anastasiya Bukshtunovich <nastya.trader@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BukshtunovichAN/js-task-05/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
